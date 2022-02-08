@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <header>
-    <i class="fas fa-hat-wizard"></i>
+    
     <nav role="navigation">
     <a href= "#"> </a>
     <ul>
@@ -24,24 +24,25 @@
 </header>
 
 <main>
-    <img src ="photos/tom-kulczycki-N2fRlew1J6U-unsplash.jpg" alt="trees-with-fog" class="hero">
-
     <div class="grid-container">
+    
+    <div class="formspree">
     <form action="https://formspree.io/f/mvolkllo"
     method="POST">
 
-
+<h1>Duel Arena</h1>
+<p>The Greatest MMORPG Arena Duelling Game of 2022</p>
     <div class="grid1">
      <fieldset>
             <label for="username"> Input your Username: </label>
-         <input type= "text" name="username">
+         <input type= "text" name="username" placeholder="Required">
      </fieldset>
     </div>
      
     <div class="grid2">
         <fieldset>
         <div>
-<label><h3>What class would you like to play?</h3></label>
+            <label for="class">What class would you like to play?</label>
 
         <input type="radio" name="class" value="Bard">
          
@@ -70,7 +71,7 @@
     
      <div class="grid3">
          <fieldset>
-         <label>Select Region: </label>
+         <label for="region">Select Region: </label>
         <select class="dropdown" name="region">
         <option selected="true" disabled="disabled">Select One</option>
         <option>North America</option> 
@@ -87,7 +88,7 @@
 
 <div class="grid4">
     <fieldset>
-   <label> Date of Birth </label>
+   <label for="DOB"> Date of Birth </label>
     <input type="date" class="date" name="dob"> 
     </fieldset>
      
@@ -97,6 +98,8 @@
 
 
 </form>
+</div>
+</div>
   <body>
 
   
